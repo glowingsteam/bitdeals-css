@@ -1,0 +1,601 @@
+/*  ================================
+        global area start
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 14px !important;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+
+.header-top {
+    overflow: hidden;
+    background-color: #1985B3;
+}
+
+.wel-come h4 {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wel-come {
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.menu-top {
+    text-align: right;
+}
+
+.menu-top ul {
+    display: inline-block;
+}
+
+.menu-top li {
+    list-style: none;
+    display: inline-block;
+    padding: 18px 0 0;
+}
+
+.separate {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.menu-top li a {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.menu-top li a:hover {
+    color: #12DD12;
+}
+
+/*======================== Menu Design ==================*/
+
+.menu-area {
+    padding: 30px 0;
+}
+
+#menu-switcher,
+.navbar-header > label,
+.switch {
+    display: none;
+}
+
+.menu-container label::before {
+    border-bottom: 2px solid #12DD12;
+    box-shadow: 0 5px 0 0 #12DD12, 0 0 0 0 inset, 0 -5px 0 0 #12DD12;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+
+.switch {
+    width: 100%;
+    float: left;
+    height: auto;
+    min-height: 45px;
+    position: relative;
+}
+
+.menu-container label {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    cursor: pointer;
+    display: none;
+    height: 35px;
+    padding: 0;
+    position: absolute !important;
+    right: 0;
+    top: 4px;
+    width: 40px;
+    z-index: 9999;
+    border: 1px solid #12DD12;
+}
+
+#navbar ul {
+    text-align: right;
+    margin: 8px 0 0;
+}
+
+#navbar ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
+
+#navbar ul li a {
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    color: #1a1a1a;
+    line-height: 25px;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.5s;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+#navbar ul li a::before {
+    left: 50%;
+    bottom: 0;
+    right: 50%;
+    position: absolute;
+    content: '';
+    height: 2px;
+    background: #12DD12;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#navbar ul li a:hover::before {
+    left: 0;
+    right: 0;
+}
+
+#navbar ul li a:hover {
+    color: #1985B3;
+}
+
+/* menu part end */
+
+/*  ================================
+        header area end
+    ================================ */
+
+.banner {
+    margin-bottom: 30px;
+}
+
+.support-box {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.support-box ul li {
+    float: left;
+    width: 24.3%;
+    list-style: none;
+    position: relative;
+    border: 1px solid #D1D1D1;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-left {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.service-left i {
+    font-size: 60px;
+    color: #12DD12;
+}
+
+.service-right {
+    width: 70%;
+    float: right;
+    padding: 17px 10px;
+    font-weight: 600;
+}
+
+.service-right {
+    font-size: 14px;
+    display: inline-block;
+    color: #1a1a1a;
+    transition: 0.5s;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*  ================================
+        product title area start
+    ================================ */
+
+.pro-title {
+    background-color: #1985B3;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.pro-title h3 {
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+/*  ================================
+        product title area end
+    ================================ */
+
+/*  ================================
+        product area start
+    ================================ */
+
+.sidebar-box {
+    border: 1px solid #1985B3;
+    text-align: center;
+    padding: 0 0 15px;
+    margin-bottom: 20px;
+}
+
+.sidebar-box h3 {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    background-color: #1985B3;
+    margin-bottom: 15px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.sidebar-box img {
+    width: 200px;
+}
+
+.product-wraper {
+    border: 1px solid #D1D1D1;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+.dec-title {
+    margin: 30px 0 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.product-dec {
+    padding: 20px 30px;
+    border: 1px solid #D1D1D1;
+}
+
+.product-dec h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #1985B3;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin: 30px 0 10px;
+    font-weight: 600;
+}
+
+.product-dec h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #12DD12;
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 20px 0 10px;
+}
+
+.product-dec ul {
+    margin-bottom: 30px;
+}
+
+.product-dec ul,
+.tab-list ul {
+    margin: 0 0 10px;
+}
+
+.product-dec ul li,
+.tab-list ul li {
+    list-style: none;
+    padding: 5px 20px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.product-dec ul li::before,
+.tab-list ul li::before {
+    position: absolute;
+    content: "\f046";
+    font-family: fontawesome;
+    left: 0;
+    color: #12DD12;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-color: #BFBFBF;
+}
+
+table td {
+    border-color: #BFBFBF;
+    padding: 10px;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+/*  ================================
+        tab area start
+    ================================ */
+
+.tab-part-area {
+    padding: 80px 0 50px;
+}
+
+section.tab-section {
+    display: none;
+    padding: 40px 45px;
+    border: 1px solid #ddd;
+    color: #1a1a1a;
+    overflow: hidden;
+}
+
+input {
+    display: none;
+}
+
+label {
+    color: #1a1a1a;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #F8F8FA;
+    border: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+input:checked + label {
+    color: #fff;
+    border: 1px solid #1985B3;
+    background-color: #1985B3;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+    display: block;
+}
+
+.tab-section p {
+    color: #3D3D3D;
+    font-weight: 500;
+}
+
+
+.tab-section p a {
+    color: #12DD12;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/*  ================================
+        tab area end
+    ================================ */
+
+/*  ================================
+        care area start
+    ================================ */
+
+.care-area {
+    padding: 30px 0;
+}
+
+.bg {
+    background-color: #1985B3;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.single-care i {
+    font-size: 30px;
+    color: #12DD12;
+}
+
+.single-care h3 {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.single-care p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*  ================================
+        care area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+
+.footer-top {
+    padding: 35px 0;
+}
+
+.footer-widget h2 {
+    padding: 0 0 20px;
+    margin: 0 0 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+    position: relative;
+}
+
+.footer-widget h2::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 20%;
+    border: 1px solid #12DD12;
+}
+
+.footer-widget.footer-img {
+    margin: 110px 0 0;
+}
+
+.footer-widget p {
+    margin: 0 0 20px;
+    line-height: 18px;
+}
+
+.footer-widget a {
+    color: #1a1a1a;
+    margin: 0 0 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+}
+
+.footer-widget a:hover {
+    text-decoration: none;
+}
+
+.footer-widget ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-widget ul li {
+    margin-bottom: 10px;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.footer-widget ul li a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.footer-widget ul li a:hover {
+    text-decoration: none;
+    color: #1D9BD7 !important;
+}
+
+.footer-img p {
+    text-transform: capitalize !important;
+    font-weight: 600 !important;
+    color: #fff;
+}
+
+.sub-btn {
+    border: 1px solid #1D9BD7;
+    background: #1D9BD7;
+    text-transform: uppercase !important;
+    padding: 10px 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+    color: #fff !important;
+}
+
+.main-footer {
+    padding: 20px 0;
+    background-color: #1D9BD7;
+}
+
+.copy-right p a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.copy-right p {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
